@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+usdjpy,group0_ohlcv,lstm,456,0.0007228642934933,0.0022381462622433,0.0012629094999283,42,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group0_ohlcv\lstm\456
+usdjpy,group1_momentum,lstm,456,0.0007221599807962,0.0019943199586123,0.000587249349337,32,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group1_momentum\lstm\456
+usdjpy,group2_trend,lstm,456,0.0007989467703737,0.0013375176349654,0.0007345762569457,34,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group2_trend\lstm\456
+usdjpy,group3_volatility,lstm,456,0.0007071245345287,0.0029611214995384,0.0019237912492826,38,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group3_volatility\lstm\456
+usdjpy,group4_all,lstm,456,0.0012565682409331,0.0031225008424371,0.0028629349544644,34,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group4_all\lstm\456
+usdjpy,group0_ohlcv,gru,456,0.0010990053415298,0.0066355746239423,0.0061944564804434,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group0_ohlcv\gru\456
+usdjpy,group1_momentum,gru,456,0.0025637689977884,0.0088756447657942,0.0057514384388923,35,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group1_momentum\gru\456
+usdjpy,group2_trend,gru,456,0.0005934900254942,0.0044288788922131,0.0026817759498953,68,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group2_trend\gru\456
+usdjpy,group3_volatility,gru,456,0.0005745142698287,0.003002151614055,0.002232423517853,55,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group3_volatility\gru\456
+usdjpy,group4_all,gru,456,0.0008708608802407,0.0066116699017584,0.005920426454395,37,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group4_all\gru\456

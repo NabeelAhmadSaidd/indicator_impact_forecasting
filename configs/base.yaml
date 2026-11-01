@@ -1,0 +1,86 @@
+# Base configuration for indicator impact forecasting project
+# Global parameters shared across all experiments
+
+# Random seed for reproducibility
+seed: 42
+seeds: [42, 123, 456 , 739, 1126] # Multiple seeds for robust experiments
+
+# Data parameters
+data:
+  train_ratio: 0.8
+  val_ratio: 0.10
+  test_ratio: 0.10
+  window_size: 60  # Number of timesteps to look back
+  horizon: 1  # Prediction horizon (next-step)
+  target_column: "Close"
+  
+# Scaling parameters
+scaling:
+  method: "minmax"  # Options: minmax, standard, robust
+  feature_range: [0, 1]
+
+# Training parameters
+training:
+  batch_size: 32
+  epochs: 100
+  early_stopping:
+    enabled: true
+    patience: 15
+    min_delta: 0.0001
+    monitor: "val_loss"
+    mode: "min"
+    restore_best_weights: true
+  
+  # Learning rate scheduling
+  lr_scheduler:
+    enabled: true
+    type: "reduce_on_plateau"
+    factor: 0.8
+    patience: 3
+    min_lr: 0.00001
+
+# Checkpointing
+checkpoints:
+  save_best_only: false
+  save_weights_only: false
+  monitor: "val_loss"
+  mode: "min"
+
+# Logging
+logging:
+  level: "INFO"
+  log_to_file: true
+  log_to_console: true
+  
+# Evaluation metrics
+metrics:
+  primary:
+    - rmse
+    - directional_accuracy
+  secondary:
+    - mae
+    - mape
+
+# Paths (relative to project root)
+# New hierarchical structure: category/asset/group/model
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  experiments: "experiments"
+  models: "models"
+  logs: "logs"
+  results: "results"
+  
+# Path patterns for hierarchical organization
+# {category} = crypto/equity/forex/commodity/index
+# {asset} = BTCUSD/ETHUSD/etc
+# {group} = group0_ohlcv/group1_momentum/etc
+# {model} = lstm/gru
+path_patterns:
+  raw: "data/raw/{category}/{asset}/"
+  processed: "data/processed/{category}/{asset}/{group}/"
+  models: "models/{category}/{asset}/{group}/{model}/{seed}/"
+  results: "results/{category}/{asset}/{group}/{model}/{seed}/"
+  experiments: "experiments/{category}/{asset}/{group}/{model}/{seed}/"
+  logs: "logs/{category}/{asset}/{group}/{model}/{seed}/"
+

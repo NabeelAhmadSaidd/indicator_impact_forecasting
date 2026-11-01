@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+bitcoin,group0_ohlcv,lstm,42,0.000746073492337,0.0078667914494872,0.0056460294872522,34,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\lstm\42
+bitcoin,group1_momentum,lstm,42,0.0007994533516466,0.0063818600028753,0.0047389320097863,37,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\lstm\42
+bitcoin,group2_trend,lstm,42,0.0008033788762986,0.0085432613268494,0.0068205497227609,37,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\lstm\42
+bitcoin,group3_volatility,lstm,42,0.0007834766875021,0.0066265896894037,0.0041358810849487,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\lstm\42
+bitcoin,group4_all,lstm,42,0.000970171415247,0.0086158923804759,0.0044779903255403,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\lstm\42
+bitcoin,group0_ohlcv,gru,42,0.0004164860583841,0.0047509972937405,0.0028771683573722,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\gru\42
+bitcoin,group1_momentum,gru,42,0.0010331139201298,0.0039568017236888,0.0030927371699362,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\gru\42
+bitcoin,group2_trend,gru,42,0.0007846286171115,0.0069870492443442,0.0031698183156549,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\gru\42
+bitcoin,group3_volatility,gru,42,0.0008269950048997,0.0060296105220913,0.0033749658614397,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\gru\42
+bitcoin,group4_all,gru,42,0.0010748849017545,0.0057971812784671,0.0032910781446844,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\gru\42

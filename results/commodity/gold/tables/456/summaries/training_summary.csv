@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+gold,group0_ohlcv,lstm,456,0.0011095551308244,0.0069565554149448,0.0054532312788069,55,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\lstm\456
+gold,group1_momentum,lstm,456,0.0011760955676436,0.0070151621475815,0.0052578491158783,51,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\lstm\456
+gold,group2_trend,lstm,456,0.00122211931739,0.009292472153902,0.0078135058283805,60,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\lstm\456
+gold,group3_volatility,lstm,456,0.0019363680621609,0.0160145480185747,0.0141140902414917,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\lstm\456
+gold,group4_all,lstm,456,0.0011923280544579,0.0053614005446434,0.0039296932518482,55,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\lstm\456
+gold,group0_ohlcv,gru,456,0.0013448435347527,0.0078017688356339,0.0039639608003199,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\gru\456
+gold,group1_momentum,gru,456,0.0035823518410325,0.0084624737501144,0.0062653264030814,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\gru\456
+gold,group2_trend,gru,456,0.0014140551211312,0.0119829764589667,0.0077931713312864,31,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\gru\456
+gold,group3_volatility,gru,456,0.0010447638342157,0.0102452784776687,0.0058783614076673,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\gru\456
+gold,group4_all,gru,456,0.0015759344678372,0.0119350329041481,0.0100319245830178,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\gru\456

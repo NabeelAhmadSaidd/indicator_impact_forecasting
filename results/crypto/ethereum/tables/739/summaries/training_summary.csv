@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+ethereum,group0_ohlcv,lstm,739,0.0011284028878435,0.00280636921525,0.0018856381066143,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group0_ohlcv\lstm\739
+ethereum,group1_momentum,lstm,739,0.0014913049526512,0.0023675255943089,0.0019343033200129,27,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group1_momentum\lstm\739
+ethereum,group2_trend,lstm,739,0.0013997196219861,0.0020500745158642,0.0018775907810777,27,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group2_trend\lstm\739
+ethereum,group3_volatility,lstm,739,0.0012127276277169,0.0030235962476581,0.0019602333195507,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group3_volatility\lstm\739
+ethereum,group4_all,lstm,739,0.0015279975486919,0.0022569617722183,0.0016419655876234,27,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group4_all\lstm\739
+ethereum,group0_ohlcv,gru,739,0.0011147165205329,0.0009894095128402,0.0008643146138638,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group0_ohlcv\gru\739
+ethereum,group1_momentum,gru,739,0.0012369969626888,0.0010683049913495,0.000665285391733,34,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group1_momentum\gru\739
+ethereum,group2_trend,gru,739,0.0013206925941631,0.0007453973521478,0.000692973320838,38,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group2_trend\gru\739
+ethereum,group3_volatility,gru,739,0.001285242033191,0.0008362949010916,0.0008242095937021,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group3_volatility\gru\739
+ethereum,group4_all,gru,739,0.0013558268547058,0.0010496092727407,0.0007991283200681,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group4_all\gru\739

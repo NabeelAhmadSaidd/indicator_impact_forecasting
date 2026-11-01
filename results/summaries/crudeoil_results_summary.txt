@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR crudeoil
+============================================================
+
+Best Overall Model:
+  Model: GRU
+  Group: group4_all
+  RMSE: 0.015529
+  DA: 47.79%
+
+Best by Model Type:
+  LSTM: group0_ohlcv (RMSE=0.023837)
+  GRU: group4_all (RMSE=0.015529)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -3.27%
+  group2_trend: +5.10%
+  group3_volatility: -2.23%
+  group4_all: +14.45%

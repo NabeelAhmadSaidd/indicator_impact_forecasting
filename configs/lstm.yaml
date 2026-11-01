@@ -1,0 +1,46 @@
+# LSTM Model Configuration
+# Hyperparameters for Long Short-Term Memory network
+
+architecture:
+  layers:
+    - type: lstm
+      units: 64
+      return_sequences: true
+      dropout: 0.05
+      recurrent_dropout: 0.0
+    - type: lstm
+      units: 64
+      return_sequences: false
+      dropout: 0.05
+      recurrent_dropout: 0.0
+  dense_layers:
+    - units: 32
+      activation: relu
+      dropout: 0.0
+  output:
+    units: 1
+    activation: linear
+
+training:
+  optimizer:
+    learning_rate: 0.0001
+    beta_1: 0.9
+    beta_2: 0.999
+    epsilon: 0.0000001
+  loss: mse
+  metrics: [mae]
+
+regularization:
+  l1: 0.0
+  l2: 0.000001
+
+# Input configuration (will be set dynamically)
+input:
+  window_size: 60  # From base.yaml
+  n_features: null  # Set based on feature group
+
+# Model initialization
+initialization:
+  kernel_initializer: "glorot_uniform"
+  recurrent_initializer: "orthogonal"
+  bias_initializer: "zeros"

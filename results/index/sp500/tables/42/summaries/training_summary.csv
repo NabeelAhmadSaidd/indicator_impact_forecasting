@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+sp500,group0_ohlcv,lstm,42,0.0007165974238887,0.0063447747379541,0.0027575762942433,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\lstm\42
+sp500,group1_momentum,lstm,42,0.0008541436982341,0.00430315034464,0.0032623924780637,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\lstm\42
+sp500,group2_trend,lstm,42,0.0009692463790997,0.0057121566496789,0.0052141407504677,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\lstm\42
+sp500,group3_volatility,lstm,42,0.0008839420625008,0.0048943688161671,0.0023143088910728,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\lstm\42
+sp500,group4_all,lstm,42,0.0008748700493015,0.0056743081659078,0.0025754084344953,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\lstm\42
+sp500,group0_ohlcv,gru,42,0.0006301527610048,0.006321816239506,0.0026160920970141,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\gru\42
+sp500,group1_momentum,gru,42,0.001010098028928,0.0052644787356257,0.0017347501125186,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\gru\42
+sp500,group2_trend,gru,42,0.0008988212794065,0.0077548427507281,0.0034460162278264,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\gru\42
+sp500,group3_volatility,gru,42,0.0009220474748872,0.0060047134757041,0.0021282194647938,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\gru\42
+sp500,group4_all,gru,42,0.0013374700210988,0.0030667451210319,0.001514159142971,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\gru\42

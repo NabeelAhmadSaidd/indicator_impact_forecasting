@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+ethereum,group0_ohlcv,lstm,42,0.0012957982253283,0.0024565367493778,0.0019345373148098,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group0_ohlcv\lstm\42
+ethereum,group1_momentum,lstm,42,0.0012920893495902,0.0023361463099718,0.0018186884699389,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group1_momentum\lstm\42
+ethereum,group2_trend,lstm,42,0.0012151028495281,0.0021988656371831,0.0017385357059538,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group2_trend\lstm\42
+ethereum,group3_volatility,lstm,42,0.0012688974384218,0.002302324399352,0.0017941376427188,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group3_volatility\lstm\42
+ethereum,group4_all,lstm,42,0.001250636880286,0.0017616214463487,0.0015364217106252,41,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group4_all\lstm\42
+ethereum,group0_ohlcv,gru,42,0.0008615249535068,0.0015904997708275,0.0009644092642702,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group0_ohlcv\gru\42
+ethereum,group1_momentum,gru,42,0.0018676613690331,0.0011957214446738,0.0008335011079907,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group1_momentum\gru\42
+ethereum,group2_trend,gru,42,0.0011682659387588,0.0016259159892797,0.0009380170376971,27,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group2_trend\gru\42
+ethereum,group3_volatility,gru,42,0.0011456051142886,0.0013085837708786,0.0010047535179182,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group3_volatility\gru\42
+ethereum,group4_all,gru,42,0.0013513476587831,0.0014696355210617,0.000858039536979,36,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group4_all\gru\42

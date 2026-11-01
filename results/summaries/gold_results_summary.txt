@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR gold
+============================================================
+
+Best Overall Model:
+  Model: LSTM
+  Group: group0_ohlcv
+  RMSE: 0.452457
+  DA: 58.17%
+
+Best by Model Type:
+  LSTM: group0_ohlcv (RMSE=0.452457)
+  GRU: group0_ohlcv (RMSE=0.640695)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -39.30%
+  group2_trend: -48.67%
+  group3_volatility: -33.63%
+  group4_all: -55.71%

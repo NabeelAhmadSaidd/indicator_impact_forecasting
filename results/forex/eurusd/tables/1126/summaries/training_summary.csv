@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+eurusd,group0_ohlcv,lstm,1126,0.0012132799020037,0.0005203742766752,0.0005086757009848,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group0_ohlcv\lstm\1126
+eurusd,group1_momentum,lstm,1126,0.0011940805707126,0.0006002201116643,0.0004092810850124,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group1_momentum\lstm\1126
+eurusd,group2_trend,lstm,1126,0.0012834320077672,0.0007497179321944,0.0004705467144958,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group2_trend\lstm\1126
+eurusd,group3_volatility,lstm,1126,0.0011478314409032,0.0004562285612337,0.0003569889231584,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group3_volatility\lstm\1126
+eurusd,group4_all,lstm,1126,0.0015093197580426,0.0006120414473116,0.0004038243787363,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group4_all\lstm\1126
+eurusd,group0_ohlcv,gru,1126,0.0008934102370403,0.0004625059955287,0.0002743187360465,32,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group0_ohlcv\gru\1126
+eurusd,group1_momentum,gru,1126,0.0010297903791069,0.0005507697933353,0.0002792131563182,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group1_momentum\gru\1126
+eurusd,group2_trend,gru,1126,0.0016677173553034,0.000419918942498,0.0002878567029256,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group2_trend\gru\1126
+eurusd,group3_volatility,gru,1126,0.0013538405764847,0.0004246009921189,0.0002637557627167,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group3_volatility\gru\1126
+eurusd,group4_all,gru,1126,0.0018170494586229,0.0003150211123283,0.0002751100691966,32,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group4_all\gru\1126

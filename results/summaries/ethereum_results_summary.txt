@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR ethereum
+============================================================
+
+Best Overall Model:
+  Model: GRU
+  Group: group3_volatility
+  RMSE: 0.045227
+  DA: 58.29%
+
+Best by Model Type:
+  LSTM: group2_trend (RMSE=0.067964)
+  GRU: group3_volatility (RMSE=0.045227)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -2.82%
+  group2_trend: +3.29%
+  group3_volatility: -0.44%
+  group4_all: -2.20%

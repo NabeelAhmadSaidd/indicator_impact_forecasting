@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR apple
+============================================================
+
+Best Overall Model:
+  Model: GRU
+  Group: group0_ohlcv
+  RMSE: 0.175145
+  DA: 61.47%
+
+Best by Model Type:
+  LSTM: group3_volatility (RMSE=0.216480)
+  GRU: group0_ohlcv (RMSE=0.175145)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -12.60%
+  group2_trend: -6.34%
+  group3_volatility: -3.20%
+  group4_all: -14.20%

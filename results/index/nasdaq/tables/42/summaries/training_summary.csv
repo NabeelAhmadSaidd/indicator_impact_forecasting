@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+nasdaq,group0_ohlcv,lstm,42,0.0006898528663441,0.0048333518207073,0.001687460578978,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\lstm\42
+nasdaq,group1_momentum,lstm,42,0.0008821669616736,0.004292381927371,0.0021786603610962,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\lstm\42
+nasdaq,group2_trend,lstm,42,0.0008415264892391,0.0036267689429223,0.0021161104086786,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\lstm\42
+nasdaq,group3_volatility,lstm,42,0.0008591018267907,0.0029623482841998,0.0013337017735466,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\lstm\42
+nasdaq,group4_all,lstm,42,0.0008695474825799,0.0032825318630784,0.0010645368602126,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\lstm\42
+nasdaq,group0_ohlcv,gru,42,0.0005579232238233,0.0045808907598257,0.0015249897260218,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\gru\42
+nasdaq,group1_momentum,gru,42,0.0010577926877886,0.0034145007375627,0.0009147233213298,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\gru\42
+nasdaq,group2_trend,gru,42,0.0008310947450809,0.0049930880777537,0.0019581257365643,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\gru\42
+nasdaq,group3_volatility,gru,42,0.0008896822691895,0.0043261209502816,0.0010893682483583,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\gru\42
+nasdaq,group4_all,gru,42,0.0012483278987929,0.0029677208513021,0.0011647645151242,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\gru\42

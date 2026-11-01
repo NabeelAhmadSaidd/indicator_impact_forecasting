@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+sp500,group0_ohlcv,lstm,1126,0.0009568049572408,0.0053210672922432,0.0029289317317306,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\lstm\1126
+sp500,group1_momentum,lstm,1126,0.0009055996779352,0.0058535132557153,0.0019955218303948,16,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\lstm\1126
+sp500,group2_trend,lstm,1126,0.0009812876814976,0.0072331610135734,0.0035039377398788,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\lstm\1126
+sp500,group3_volatility,lstm,1126,0.0007739442517049,0.0043573286384344,0.0018411068012937,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\lstm\1126
+sp500,group4_all,lstm,1126,0.0011378118069842,0.0046684890985488,0.0027499252464622,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\lstm\1126
+sp500,group0_ohlcv,gru,1126,0.0008502466371282,0.0049096196889877,0.0011987927136942,35,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\gru\1126
+sp500,group1_momentum,gru,1126,0.0015907459892332,0.0040174573659896,0.0018373861676082,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\gru\1126
+sp500,group2_trend,gru,1126,0.0023837308399379,0.0040953555144369,0.001910753082484,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\gru\1126
+sp500,group3_volatility,gru,1126,0.0014015143970027,0.0030655523296445,0.0022056507878005,31,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\gru\1126
+sp500,group4_all,gru,1126,0.001867530751042,0.0043072793632745,0.0025322253350168,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\gru\1126

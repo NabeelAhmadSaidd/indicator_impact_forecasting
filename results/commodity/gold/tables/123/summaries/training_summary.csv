@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+gold,group0_ohlcv,lstm,123,0.0008934988873079,0.0061826040036976,0.0047331280075013,52,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\lstm\123
+gold,group1_momentum,lstm,123,0.0011227949289605,0.0088798590004444,0.0080845039337873,41,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\lstm\123
+gold,group2_trend,lstm,123,0.0011085616424679,0.0076598431915044,0.0059243175201117,46,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\lstm\123
+gold,group3_volatility,lstm,123,0.0009155126754194,0.0078275194391608,0.0066337417811155,43,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\lstm\123
+gold,group4_all,lstm,123,0.0009763831621967,0.0079391431063413,0.0059718447737395,52,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\lstm\123
+gold,group0_ohlcv,gru,123,0.0009182707290165,0.0111148618161678,0.0093556242063641,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\gru\123
+gold,group1_momentum,gru,123,0.0010749702341854,0.0110014984384179,0.0080594085156917,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\gru\123
+gold,group2_trend,gru,123,0.0010988062713295,0.0103163924068212,0.0073329578153789,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\gru\123
+gold,group3_volatility,gru,123,0.0005760137573815,0.0088988794013857,0.0071306135505437,52,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\gru\123
+gold,group4_all,gru,123,0.0015656715258955,0.0129185393452644,0.0086100464686751,16,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\gru\123

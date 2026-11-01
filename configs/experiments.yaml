@@ -1,0 +1,115 @@
+# Experiments Configuration
+# Defines ablation study settings and experimental groups
+
+# Experiment metadata
+experiment:
+  name: "indicator_impact_ablation"
+  description: "Ablation study to assess impact of technical indicators on DL forecasting"
+  version: "1.0"
+
+# Models to evaluate
+models:
+  - lstm
+  - gru
+
+# Assets to evaluate
+assets:
+  commodity:
+    - crudeoil
+    - gold
+  crypto:
+    - bitcoin
+    - ethereum
+  equity:
+    - apple
+    - microsoft
+  forex:
+    - eurusd
+    - usdjpy
+  index:
+    - nasdaq
+    - sp500
+
+# Experimental groups for ablation
+groups:
+  group0_ohlcv:
+    name: "E0: OHLCV Only"
+    description: "Control group - Base OHLCV features only"
+    features: ["Open", "High", "Low", "Close", "Volume"]
+    is_control: true
+    
+  group1_momentum:
+    name: "E1: OHLCV + Momentum"
+    description: "Base features plus momentum indicators"
+    base: "group0_ohlcv"
+    add_indicators: ["RSI", "Stochastic_K", "Stochastic_D"]
+    
+  group2_trend:
+    name: "E2: OHLCV + Trend"
+    description: "Base features plus trend and MACD"
+    base: "group0_ohlcv"
+    add_indicators: ["SMA", "EMA", "ADX", "MACD", "MACD_Signal", "MACD_Histogram"]
+    
+  group3_volatility:
+    name: "E3: OHLCV + Volatility"
+    description: "Base features plus volatility indicators"
+    base: "group0_ohlcv"
+    add_indicators: ["ATR", "BB_Upper", "BB_Lower", "BB_PercentB"]
+    
+  group4_all:
+    name: "E4: OHLCV + All Indicators"
+    description: "Base features plus combination of momentum, trend, and volatility indicators"
+    base: "group0_ohlcv"
+    add_indicators: 
+      - "RSI"
+      - "Stochastic_K"
+      - "Stochastic_D"
+      - "SMA"
+      - "EMA"
+      - "ADX"
+      - "MACD"
+      - "MACD_Signal"
+      - "MACD_Histogram"
+      - "ATR"
+      - "BB_Upper"
+      - "BB_Lower"
+      - "BB_PercentB"
+
+# Number of runs per experiment for statistical validity
+runs_per_experiment: 3
+
+# Seeds for multiple runs (from base.yaml)
+use_multiple_seeds: true
+
+# Statistical significance level
+alpha: 0.05
+
+# Hypotheses to test
+hypotheses:
+  H1:
+    description: "Models with indicators outperform OHLCV-only models"
+    test: "paired_ttest"
+    compare: ["group0_ohlcv", "group1_momentum", "group2_trend", "group3_volatility", "group4_all"]
+    
+  H2:
+    description: "Different asset classes benefit from different indicator combinations"
+    test: "anova"
+    group_by: "asset_category"
+    
+  H3:
+    description: "Volatility indicators provide greater value for cryptocurrencies"
+    test: "paired_ttest"
+    subset: ["bitcoin", "ethereum"]
+    compare: ["group0_ohlcv", "group3_volatility"]
+    
+  H4:
+    description: "Some indicators may introduce noise and degrade performance"
+    test: "permutation_importance"
+    identify: "negative_contributors"
+
+# Output settings
+output:
+  save_predictions: true
+  save_history: true
+  save_config: true
+  generate_plots: true

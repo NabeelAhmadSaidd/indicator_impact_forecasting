@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+apple,group0_ohlcv,lstm,456,0.0010993113974109,0.0087762083858251,0.0035946003627032,16,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\lstm\456
+apple,group1_momentum,lstm,456,0.0015503652393817,0.0087130516767501,0.0063459114171564,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\lstm\456
+apple,group2_trend,lstm,456,0.0012758157681673,0.008016113191843,0.006111956667155,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\lstm\456
+apple,group3_volatility,lstm,456,0.0011250963434576,0.0104305045679211,0.0056605073623359,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\lstm\456
+apple,group4_all,lstm,456,0.0014660977758467,0.0088797602802515,0.0079650115221738,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\lstm\456
+apple,group0_ohlcv,gru,456,0.0011615199036896,0.0058710342273116,0.0020469322334975,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\gru\456
+apple,group1_momentum,gru,456,0.0021087795030325,0.0049204188399016,0.0026212763041257,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\gru\456
+apple,group2_trend,gru,456,0.0011851516319438,0.0057335356250405,0.0037122834473848,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\gru\456
+apple,group3_volatility,gru,456,0.001014208770357,0.007689599879086,0.0039550797082483,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\gru\456
+apple,group4_all,gru,456,0.0009335855720564,0.0079716462641954,0.0065931002609431,37,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\gru\456

@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR microsoft
+============================================================
+
+Best Overall Model:
+  Model: LSTM
+  Group: group3_volatility
+  RMSE: 0.171020
+  DA: 50.80%
+
+Best by Model Type:
+  LSTM: group3_volatility (RMSE=0.171020)
+  GRU: group0_ohlcv (RMSE=0.193196)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -9.71%
+  group2_trend: -19.85%
+  group3_volatility: +2.72%
+  group4_all: -21.82%

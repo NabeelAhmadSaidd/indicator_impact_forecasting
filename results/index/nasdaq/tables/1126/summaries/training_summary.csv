@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+nasdaq,group0_ohlcv,lstm,1126,0.0009600237826816,0.0037954696454107,0.0015584240900352,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\lstm\1126
+nasdaq,group1_momentum,lstm,1126,0.0008902857080101,0.0043730284087359,0.0012692114105448,16,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\lstm\1126
+nasdaq,group2_trend,lstm,1126,0.0009146059746854,0.0052242903038859,0.001705844537355,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\lstm\1126
+nasdaq,group3_volatility,lstm,1126,0.0007532207528129,0.0023586100433021,0.0016207523876801,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\lstm\1126
+nasdaq,group4_all,lstm,1126,0.0010694623924791,0.0029626325704157,0.0013342382153496,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\lstm\1126
+nasdaq,group0_ohlcv,gru,1126,0.0014116818783804,0.0020516484510153,0.0007904736557975,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\gru\1126
+nasdaq,group1_momentum,gru,1126,0.0018682446097955,0.0028740358538925,0.0012429154012352,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\gru\1126
+nasdaq,group2_trend,gru,1126,0.0020009365398436,0.0027514591347426,0.0010397734586149,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\gru\1126
+nasdaq,group3_volatility,gru,1126,0.001381984562613,0.0017863464308902,0.0009340740507468,40,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\gru\1126
+nasdaq,group4_all,gru,1126,0.0017340604681521,0.0018830822082236,0.0009825113229453,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\gru\1126

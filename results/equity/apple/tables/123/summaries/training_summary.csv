@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+apple,group0_ohlcv,lstm,123,0.0006699901423417,0.0069841328077018,0.0040398924611508,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\lstm\123
+apple,group1_momentum,lstm,123,0.0008313275175169,0.009662845171988,0.0056775799021124,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\lstm\123
+apple,group2_trend,lstm,123,0.0007984069525264,0.0057594063691794,0.0028857006691396,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\lstm\123
+apple,group3_volatility,lstm,123,0.0008139227284118,0.0079692117869853,0.0033876544330269,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\lstm\123
+apple,group4_all,lstm,123,0.000894519558642,0.0087017016485333,0.0055539016611874,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\lstm\123
+apple,group0_ohlcv,gru,123,0.0005414097104221,0.0090317316353321,0.0045320689678192,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\gru\123
+apple,group1_momentum,gru,123,0.0007762893801555,0.0082122534513473,0.0027230978012084,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\gru\123
+apple,group2_trend,gru,123,0.0008652261458337,0.0061515937559306,0.0024719464126974,16,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\gru\123
+apple,group3_volatility,gru,123,0.0007078640046529,0.0098658585920929,0.0055562602356076,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\gru\123
+apple,group4_all,gru,123,0.0011711854021996,0.0072013130411505,0.0031850365921854,16,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\gru\123

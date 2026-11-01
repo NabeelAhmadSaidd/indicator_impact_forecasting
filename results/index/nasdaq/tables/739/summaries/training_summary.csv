@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+nasdaq,group0_ohlcv,lstm,739,0.0008709275280125,0.0025940213818103,0.0010719555430114,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\lstm\739
+nasdaq,group1_momentum,lstm,739,0.0009142938652075,0.0031203129328787,0.001565107028,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\lstm\739
+nasdaq,group2_trend,lstm,739,0.0009530176757834,0.0019421457545831,0.0018945605261251,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\lstm\739
+nasdaq,group3_volatility,lstm,739,0.0007682648720219,0.0019453847780823,0.0012186495587229,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\lstm\739
+nasdaq,group4_all,lstm,739,0.0009493385441601,0.0027317898347973,0.0012515432899817,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\lstm\739
+nasdaq,group0_ohlcv,gru,739,0.000948392029386,0.0034651854075491,0.0010135401971638,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\gru\739
+nasdaq,group1_momentum,gru,739,0.0019124498357996,0.0031042436603456,0.0010292209917679,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\gru\739
+nasdaq,group2_trend,gru,739,0.0013391526881605,0.0013191630132496,0.0009641359793022,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\gru\739
+nasdaq,group3_volatility,gru,739,0.0010445010848343,0.0028599563520401,0.0008007970172911,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\gru\739
+nasdaq,group4_all,gru,739,0.0012389115290716,0.0018804982537403,0.000910710543394,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\gru\739

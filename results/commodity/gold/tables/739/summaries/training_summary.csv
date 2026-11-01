@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+gold,group0_ohlcv,lstm,739,0.0011154634412378,0.0081330677494406,0.0075973351486027,42,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\lstm\739
+gold,group1_momentum,lstm,739,0.0011291344417259,0.0098615614697337,0.0098238745704293,44,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\lstm\739
+gold,group2_trend,lstm,739,0.001343316049315,0.0102866534143686,0.0095774438232183,37,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\lstm\739
+gold,group3_volatility,lstm,739,0.0009010137291625,0.0069281267933547,0.0064314096234738,56,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\lstm\739
+gold,group4_all,lstm,739,0.0010376551654189,0.0075486381538212,0.0066098351962864,56,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\lstm\739
+gold,group0_ohlcv,gru,739,0.0011179777793586,0.009183021262288,0.0066956784576177,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\gru\739
+gold,group1_momentum,gru,739,0.0026057311333715,0.0101022953167557,0.0061428826302289,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\gru\739
+gold,group2_trend,gru,739,0.001734641729854,0.0072119990363717,0.0061390316113829,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\gru\739
+gold,group3_volatility,gru,739,0.0013412050902843,0.0087563255801796,0.0056267571635544,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\gru\739
+gold,group4_all,gru,739,0.0016931531718,0.0109368851408362,0.0057694972492754,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\gru\739

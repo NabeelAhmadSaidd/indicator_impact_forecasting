@@ -1,0 +1,28 @@
+2026-02-02 03:17:29 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\equity\apple\Apple_daily.csv
+2026-02-02 03:17:29 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:20:09 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\equity\apple\Apple_daily.csv
+2026-02-02 03:20:09 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\commodity\crudeoil\CrudeOil_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\commodity\gold\Gold_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4023 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\crypto\bitcoin\Bitcoin_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4124 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\crypto\ethereum\Ethereum_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 2975 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\equity\apple\Apple_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\equity\microsoft\Microsoft_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\forex\eurusd\EURUSD_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4165 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\forex\usdjpy\USDJPY_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4165 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\index\nasdaq\NASDAQ_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-02 03:26:22 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\index\sp500\SP500_daily.csv
+2026-02-02 03:26:22 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-05 17:37:12 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\equity\apple\Apple_daily.csv
+2026-02-05 17:37:12 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']
+2026-02-06 03:18:04 | preprocessing | INFO | Loading data from C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\data\raw\equity\apple\Apple_daily.csv
+2026-02-06 03:18:04 | preprocessing | INFO | Loaded 4024 rows with columns: ['Open', 'High', 'Low', 'Close', 'Volume']

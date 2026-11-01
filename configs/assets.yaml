@@ -1,0 +1,97 @@
+# Asset configuration for indicator impact forecasting project
+# Defines all assets with their properties and file locations
+
+assets:
+  # Commodity assets
+  commodity:
+    crudeoil:
+      name: "Crude Oil"
+      timeframe: "D1"
+      filename: "CrudeOil_daily.csv"
+      category: "commodity"
+      description: "Crude Oil - Daily"
+      
+    gold:
+      name: "Gold"
+      timeframe: "D1"
+      filename: "Gold_daily.csv"
+      category: "commodity"
+      description: "Gold - Daily"
+
+  # Cryptocurrency assets
+  crypto:
+    bitcoin:
+      name: "Bitcoin/USD"
+      timeframe: "D1"
+      filename: "Bitcoin_daily.csv"
+      category: "crypto"
+      description: "Bitcoin vs US Dollar - Daily"
+      
+    ethereum:
+      name: "Ethereum/USD"
+      timeframe: "D1"
+      filename: "Ethereum_daily.csv"
+      category: "crypto"
+      description: "Ethereum vs US Dollar - Daily"
+
+  # Equity assets
+  equity:
+    apple:
+      name: "Apple Inc."
+      timeframe: "D1"
+      filename: "Apple_daily.csv"
+      category: "equity"
+      description: "Apple Inc. Stock - Daily"
+      
+    microsoft:
+      name: "Microsoft Corp."
+      timeframe: "D1"
+      filename: "Microsoft_daily.csv"
+      category: "equity"
+      description: "Microsoft Corp. Stock - Daily"
+
+  # Forex assets
+  forex:
+    eurusd:
+      name: "EUR/USD"
+      timeframe: "D1"
+      filename: "EURUSD_daily.csv"
+      category: "forex"
+      description: "Euro vs US Dollar - Daily"
+      
+    usdjpy:
+      name: "USD/JPY"
+      timeframe: "D1"
+      filename: "USDJPY_daily.csv"
+      category: "forex"
+      description: "US Dollar vs Japanese Yen - Daily"
+
+  # Index assets
+  index:
+    nasdaq:
+      name: "NASDAQ"
+      timeframe: "D1"
+      filename: "NASDAQ_daily.csv"
+      category: "index"
+      description: "NASDAQ Index - Daily"
+      
+    sp500:
+      name: "S&P 500"
+      timeframe: "D1"
+      filename: "SP500_daily.csv"
+      category: "index"
+      description: "S&P 500 Index - Daily"
+
+# Default columns expected in raw data
+raw_columns:
+  - "Date"
+  - "Open"
+  - "High"
+  - "Low"
+  - "Close"
+  - "Volume"
+
+# Timestamp parsing
+timestamp:
+  format: "%Y-%m-%d"
+  timezone: "UTC"

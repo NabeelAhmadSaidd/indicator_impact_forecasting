@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+bitcoin,group0_ohlcv,lstm,456,0.0007630124455317,0.0076554273255169,0.0076554273255169,100,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\lstm\456
+bitcoin,group1_momentum,lstm,456,0.0008863629191182,0.0093781976029276,0.0058298255316913,35,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\lstm\456
+bitcoin,group2_trend,lstm,456,0.0011163671733811,0.0134805310517549,0.0109711606055498,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\lstm\456
+bitcoin,group3_volatility,lstm,456,0.0009635858586989,0.0128620965406298,0.0104756699874997,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\lstm\456
+bitcoin,group4_all,lstm,456,0.0008966693421825,0.0075104883871972,0.0071325479075312,59,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\lstm\456
+bitcoin,group0_ohlcv,gru,456,0.0009557104785926,0.0066096032969653,0.0045431707985699,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\gru\456
+bitcoin,group1_momentum,gru,456,0.0019138831412419,0.0047277021221816,0.0041880817152559,32,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\gru\456
+bitcoin,group2_trend,gru,456,0.0007622190169058,0.0079787774011492,0.0053485613316297,31,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\gru\456
+bitcoin,group3_volatility,gru,456,0.0008460695971734,0.0057593900710344,0.0056586540304124,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\gru\456
+bitcoin,group4_all,gru,456,0.0008165934123098,0.0073083937168121,0.0058617405593395,41,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\gru\456

@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+gold,group0_ohlcv,lstm,1126,0.0011511523043736,0.0074057332240045,0.0050719422288239,35,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\lstm\1126
+gold,group1_momentum,lstm,1126,0.0013567199930548,0.0100915599614381,0.0093000540509819,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\lstm\1126
+gold,group2_trend,lstm,1126,0.0011546083260327,0.0094136549159884,0.0071834879927337,35,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\lstm\1126
+gold,group3_volatility,lstm,1126,0.0009976841975003,0.0064413012005388,0.0047532529570162,35,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\lstm\1126
+gold,group4_all,lstm,1126,0.0015117368893697,0.0126390876248478,0.0112245129421353,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\lstm\1126
+gold,group0_ohlcv,gru,1126,0.0023853490129113,0.0056862323544919,0.003666854230687,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group0_ohlcv\gru\1126
+gold,group1_momentum,gru,1126,0.0023736937437206,0.0088791651651263,0.0037646279670298,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group1_momentum\gru\1126
+gold,group2_trend,gru,1126,0.0017720934702083,0.0079092634841799,0.0065146498382091,40,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group2_trend\gru\1126
+gold,group3_volatility,gru,1126,0.0019040959887206,0.0110448719933629,0.0062463162466883,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group3_volatility\gru\1126
+gold,group4_all,gru,1126,0.0022704238072037,0.0096916565671563,0.0079331481829285,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\gold\group4_all\gru\1126

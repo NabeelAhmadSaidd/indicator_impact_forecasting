@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+bitcoin,group0_ohlcv,lstm,739,0.000684549449943,0.0055149304680526,0.0046239821240305,50,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\lstm\739
+bitcoin,group1_momentum,lstm,739,0.0007151895551942,0.0056969537399709,0.0055956323631107,59,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\lstm\739
+bitcoin,group2_trend,lstm,739,0.0008935631485655,0.0078999288380146,0.0071862582117319,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\lstm\739
+bitcoin,group3_volatility,lstm,739,0.0006772488122805,0.0073753334581851,0.006444745697081,49,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\lstm\739
+bitcoin,group4_all,lstm,739,0.0009890758665278,0.0103724226355552,0.0095607424154877,26,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\lstm\739
+bitcoin,group0_ohlcv,gru,739,0.0006102974293753,0.0054352390579879,0.0032409296836704,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\gru\739
+bitcoin,group1_momentum,gru,739,0.0010284497402608,0.0058632437139749,0.0034979216288775,26,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\gru\739
+bitcoin,group2_trend,gru,739,0.0012895171530544,0.0053160288371145,0.0046724439598619,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\gru\739
+bitcoin,group3_volatility,gru,739,0.0006218198686838,0.0048635499551892,0.0036717625334858,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\gru\739
+bitcoin,group4_all,gru,739,0.0011016518110409,0.0055746845901012,0.003882602090016,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\gru\739

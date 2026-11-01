@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+sp500,group0_ohlcv,lstm,456,0.0012061933521181,0.0065333233214914,0.0046249930746853,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\lstm\456
+sp500,group1_momentum,lstm,456,0.0008259743917733,0.0043936963193118,0.0025036425795406,36,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\lstm\456
+sp500,group2_trend,lstm,456,0.0011016300413757,0.0058602979406714,0.0034327264875173,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\lstm\456
+sp500,group3_volatility,lstm,456,0.001420900109224,0.0072084628045558,0.0041715074330568,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\lstm\456
+sp500,group4_all,lstm,456,0.0013126910198479,0.0039409534074366,0.0029381436761468,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\lstm\456
+sp500,group0_ohlcv,gru,456,0.0017588610062375,0.0049324426800012,0.0022242213599383,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\gru\456
+sp500,group1_momentum,gru,456,0.0033830883912742,0.0046107601374387,0.0018452497897669,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\gru\456
+sp500,group2_trend,gru,456,0.0015872850781306,0.0039263903163373,0.0016371597303077,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\gru\456
+sp500,group3_volatility,gru,456,0.0013734350213781,0.0050995089113712,0.0025694912765175,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\gru\456
+sp500,group4_all,gru,456,0.0011818952625617,0.0046276114881038,0.0037316186353564,42,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\gru\456

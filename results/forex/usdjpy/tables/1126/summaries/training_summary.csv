@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+usdjpy,group0_ohlcv,lstm,1126,0.0007038603071123,0.0024704602546989,0.0018010106869041,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group0_ohlcv\lstm\1126
+usdjpy,group1_momentum,lstm,1126,0.0006510417442768,0.003407135605812,0.0017312886193394,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group1_momentum\lstm\1126
+usdjpy,group2_trend,lstm,1126,0.0005371561273932,0.0027811052277684,0.0015846926253288,40,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group2_trend\lstm\1126
+usdjpy,group3_volatility,lstm,1126,0.0005484008579514,0.0022759847342967,0.0009543242049403,43,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group3_volatility\lstm\1126
+usdjpy,group4_all,lstm,1126,0.0006968820816837,0.0040935864672064,0.0034870540257543,34,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group4_all\lstm\1126
+usdjpy,group0_ohlcv,gru,1126,0.0015260819345712,0.0063512041233479,0.0038337605074048,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group0_ohlcv\gru\1126
+usdjpy,group1_momentum,gru,1126,0.0009848586050793,0.0078345108777284,0.0057748248800635,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group1_momentum\gru\1126
+usdjpy,group2_trend,gru,1126,0.0006195527384988,0.0040938407182693,0.0039995433762669,54,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group2_trend\gru\1126
+usdjpy,group3_volatility,gru,1126,0.0012460042489692,0.0086993426084518,0.0048027732409536,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group3_volatility\gru\1126
+usdjpy,group4_all,gru,1126,0.0009121107286773,0.0085784774273633,0.0056412066332995,34,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group4_all\gru\1126

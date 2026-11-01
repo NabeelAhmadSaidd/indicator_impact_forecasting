@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+sp500,group0_ohlcv,lstm,739,0.0009281017119064,0.0031936492305248,0.0015566484071314,29,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\lstm\739
+sp500,group1_momentum,lstm,739,0.000918980455026,0.0040495274588465,0.0022254216019064,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\lstm\739
+sp500,group2_trend,lstm,739,0.0008091546478681,0.0030092105735093,0.0024489634670317,37,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\lstm\739
+sp500,group3_volatility,lstm,739,0.0007881682831794,0.0030894975643604,0.0018307167338207,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\lstm\739
+sp500,group4_all,lstm,739,0.0008629437070339,0.0040559177286922,0.0024904299061745,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\lstm\739
+sp500,group0_ohlcv,gru,739,0.0008692666888237,0.005527485627681,0.0016716009704396,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group0_ohlcv\gru\739
+sp500,group1_momentum,gru,739,0.00214259698987,0.0049498500302433,0.0016743423184379,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group1_momentum\gru\739
+sp500,group2_trend,gru,739,0.0014323177747428,0.0024937272537499,0.0015806265873834,27,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group2_trend\gru\739
+sp500,group3_volatility,gru,739,0.0008266133372671,0.0048882565461099,0.0018711874727159,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group3_volatility\gru\739
+sp500,group4_all,gru,739,0.0013278484111651,0.0033342370297759,0.0010681819403544,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\sp500\group4_all\gru\739

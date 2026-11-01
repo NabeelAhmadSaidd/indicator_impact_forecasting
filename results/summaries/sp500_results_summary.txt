@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR sp500
+============================================================
+
+Best Overall Model:
+  Model: GRU
+  Group: group0_ohlcv
+  RMSE: 0.168392
+  DA: 58.17%
+
+Best by Model Type:
+  LSTM: group0_ohlcv (RMSE=0.178998)
+  GRU: group0_ohlcv (RMSE=0.168392)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -9.65%
+  group2_trend: -7.78%
+  group3_volatility: -7.29%
+  group4_all: -19.97%

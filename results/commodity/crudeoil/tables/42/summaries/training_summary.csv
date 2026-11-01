@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+crudeoil,group0_ohlcv,lstm,42,0.0012377353850752,0.0022197370417416,0.0009151312988251,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group0_ohlcv\lstm\42
+crudeoil,group1_momentum,lstm,42,0.0014614198589697,0.0017335991142317,0.0006628689006902,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group1_momentum\lstm\42
+crudeoil,group2_trend,lstm,42,0.0011814798926934,0.001462472602725,0.0008253413252532,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group2_trend\lstm\42
+crudeoil,group3_volatility,lstm,42,0.0012903262395411,0.0013171784812584,0.0008114620577543,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group3_volatility\lstm\42
+crudeoil,group4_all,lstm,42,0.0011976532405242,0.0011844655964523,0.000599639781285,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group4_all\lstm\42
+crudeoil,group0_ohlcv,gru,42,0.0012680707732215,0.0015656354371458,0.0006475554546341,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group0_ohlcv\gru\42
+crudeoil,group1_momentum,gru,42,0.0019844397902488,0.0021597517188638,0.0005034945206716,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group1_momentum\gru\42
+crudeoil,group2_trend,gru,42,0.001248124637641,0.00206627137959,0.0006549052195623,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group2_trend\gru\42
+crudeoil,group3_volatility,gru,42,0.0013865728396922,0.0021468256600201,0.0005470532923936,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group3_volatility\gru\42
+crudeoil,group4_all,gru,42,0.0015681851655244,0.0008418169454671,0.0003989231190644,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group4_all\gru\42

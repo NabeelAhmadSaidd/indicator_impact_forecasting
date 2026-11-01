@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+crudeoil,group0_ohlcv,lstm,1126,0.0014145409222692,0.0010434822179377,0.0006901499582454,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group0_ohlcv\lstm\1126
+crudeoil,group1_momentum,lstm,1126,0.0015751984901726,0.0016413185512647,0.0006051019299775,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group1_momentum\lstm\1126
+crudeoil,group2_trend,lstm,1126,0.0012970488751307,0.0013185509014874,0.0006643353844992,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group2_trend\lstm\1126
+crudeoil,group3_volatility,lstm,1126,0.0013790730154141,0.0012118243612349,0.0006145838997326,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group3_volatility\lstm\1126
+crudeoil,group4_all,lstm,1126,0.0012562054907903,0.0011796011822298,0.0005337423644959,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group4_all\lstm\1126
+crudeoil,group0_ohlcv,gru,1126,0.0029446191620081,0.0008473548223264,0.0004601198888849,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group0_ohlcv\gru\1126
+crudeoil,group1_momentum,gru,1126,0.003018113784492,0.0004283717717044,0.0003727801085915,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group1_momentum\gru\1126
+crudeoil,group2_trend,gru,1126,0.0018964213086292,0.0005320431664586,0.0004427326202858,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group2_trend\gru\1126
+crudeoil,group3_volatility,gru,1126,0.0022503843065351,0.0007319308933801,0.0005006851279176,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group3_volatility\gru\1126
+crudeoil,group4_all,gru,1126,0.0020028098952025,0.0003747238661162,0.0003675129555631,32,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\commodity\crudeoil\group4_all\gru\1126

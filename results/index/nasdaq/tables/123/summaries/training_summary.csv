@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+nasdaq,group0_ohlcv,lstm,123,0.0009172315476462,0.0031959295738488,0.0017835531616583,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\lstm\123
+nasdaq,group1_momentum,lstm,123,0.000902623462025,0.0040099378675222,0.0020342755597084,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\lstm\123
+nasdaq,group2_trend,lstm,123,0.0008135187672451,0.0035494028124958,0.001512179733254,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\lstm\123
+nasdaq,group3_volatility,lstm,123,0.0008533675572834,0.0045571029186248,0.0017514331266283,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\lstm\123
+nasdaq,group4_all,lstm,123,0.0011097578098997,0.0040016374550759,0.0012811673805117,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\lstm\123
+nasdaq,group0_ohlcv,gru,123,0.0005451773176901,0.0052550774998962,0.0015673384768888,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\gru\123
+nasdaq,group1_momentum,gru,123,0.0009475206607021,0.003190282266587,0.0016030841507017,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\gru\123
+nasdaq,group2_trend,gru,123,0.0008091189665719,0.0047993650659918,0.0014084726572036,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\gru\123
+nasdaq,group3_volatility,gru,123,0.00068929430563,0.0038158239331096,0.002045763656497,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\gru\123
+nasdaq,group4_all,gru,123,0.0010929876007139,0.002651416696608,0.0013847023947164,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\gru\123

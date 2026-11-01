@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR nasdaq
+============================================================
+
+Best Overall Model:
+  Model: GRU
+  Group: group0_ohlcv
+  RMSE: 0.151877
+  DA: 57.46%
+
+Best by Model Type:
+  LSTM: group3_volatility (RMSE=0.170253)
+  GRU: group0_ohlcv (RMSE=0.151877)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -10.33%
+  group2_trend: -7.60%
+  group3_volatility: -2.36%
+  group4_all: -17.73%

@@ -1,0 +1,19 @@
+============================================================
+RESULTS SUMMARY FOR usdjpy
+============================================================
+
+Best Overall Model:
+  Model: LSTM
+  Group: group3_volatility
+  RMSE: 0.045300
+  DA: 50.82%
+
+Best by Model Type:
+  LSTM: group3_volatility (RMSE=0.045300)
+  GRU: group2_trend (RMSE=0.084478)
+
+Feature Group Impact (vs OHLCV baseline):
+  group1_momentum: -6.76%
+  group2_trend: -2.67%
+  group3_volatility: +1.23%
+  group4_all: -30.84%

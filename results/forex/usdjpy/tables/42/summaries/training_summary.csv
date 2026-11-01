@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+usdjpy,group0_ohlcv,lstm,42,0.0005034731002524,0.0042161615565419,0.0034918445162475,45,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group0_ohlcv\lstm\42
+usdjpy,group1_momentum,lstm,42,0.0005689996178261,0.0046364124864339,0.0026426019612699,40,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group1_momentum\lstm\42
+usdjpy,group2_trend,lstm,42,0.0006292580510489,0.0054757348261773,0.0043136021122336,39,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group2_trend\lstm\42
+usdjpy,group3_volatility,lstm,42,0.0005633749533444,0.0051742047071456,0.0027125130873173,40,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group3_volatility\lstm\42
+usdjpy,group4_all,lstm,42,0.0005918606184422,0.0061627812683582,0.0036603333428502,48,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group4_all\lstm\42
+usdjpy,group0_ohlcv,gru,42,0.0006188551196828,0.0066461358219385,0.0039981235750019,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group0_ohlcv\gru\42
+usdjpy,group1_momentum,gru,42,0.0006360927363857,0.0057991105131804,0.0050600310787558,42,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group1_momentum\gru\42
+usdjpy,group2_trend,gru,42,0.0008299563196487,0.011613255366683,0.0061286459676921,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group2_trend\gru\42
+usdjpy,group3_volatility,gru,42,0.0005840008379891,0.008083201944828,0.0062347208149731,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group3_volatility\gru\42
+usdjpy,group4_all,gru,42,0.001211630180478,0.0096895406022667,0.00564945070073,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\usdjpy\group4_all\gru\42

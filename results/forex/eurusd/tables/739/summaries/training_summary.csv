@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+eurusd,group0_ohlcv,lstm,739,0.0015284089604392,0.0006310373428277,0.0004943062085658,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group0_ohlcv\lstm\739
+eurusd,group1_momentum,lstm,739,0.00125686917454,0.0004595784412231,0.0003819057310465,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group1_momentum\lstm\739
+eurusd,group2_trend,lstm,739,0.0014318950707092,0.0004385521169751,0.0004273394297342,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group2_trend\lstm\739
+eurusd,group3_volatility,lstm,739,0.0012763045961037,0.0003956687578465,0.0003770402690861,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group3_volatility\lstm\739
+eurusd,group4_all,lstm,739,0.0013469780096784,0.0004880385822616,0.0003967835218645,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group4_all\lstm\739
+eurusd,group0_ohlcv,gru,739,0.0009123539202846,0.0005290840636007,0.0002579878491815,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group0_ohlcv\gru\739
+eurusd,group1_momentum,gru,739,0.0010892356513068,0.0004302829620428,0.0002367769193369,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group1_momentum\gru\739
+eurusd,group2_trend,gru,739,0.0012020998401567,0.0005488023161888,0.0002999966382049,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group2_trend\gru\739
+eurusd,group3_volatility,gru,739,0.0013961581280454,0.0003541225451044,0.0002360766229685,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group3_volatility\gru\739
+eurusd,group4_all,gru,739,0.001773742493242,0.0003134400758426,0.0002713274443522,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\forex\eurusd\group4_all\gru\739

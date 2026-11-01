@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+ethereum,group0_ohlcv,lstm,1126,0.0013254702789708,0.0028027181979268,0.0020730046089738,26,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group0_ohlcv\lstm\1126
+ethereum,group1_momentum,lstm,1126,0.0014403152745217,0.0024341091047972,0.0018839969998225,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group1_momentum\lstm\1126
+ethereum,group2_trend,lstm,1126,0.0013826849171891,0.0026808239053934,0.0021549940574914,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group2_trend\lstm\1126
+ethereum,group3_volatility,lstm,1126,0.0012314042542129,0.002956886542961,0.0018906706245616,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group3_volatility\lstm\1126
+ethereum,group4_all,lstm,1126,0.0014661686727777,0.002536624437198,0.0016657639062032,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group4_all\lstm\1126
+ethereum,group0_ohlcv,gru,1126,0.0015925231855362,0.0007838017190806,0.0007269732304848,45,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group0_ohlcv\gru\1126
+ethereum,group1_momentum,gru,1126,0.0013773414539173,0.0011351893190294,0.0009316354407928,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group1_momentum\gru\1126
+ethereum,group2_trend,gru,1126,0.0014100478729233,0.0009910452645272,0.0008636710117571,46,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group2_trend\gru\1126
+ethereum,group3_volatility,gru,1126,0.0012993637938052,0.0008184362668544,0.0007525583496317,40,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group3_volatility\gru\1126
+ethereum,group4_all,gru,1126,0.0014006044948473,0.0009515029960311,0.0007280869176611,45,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\ethereum\group4_all\gru\1126

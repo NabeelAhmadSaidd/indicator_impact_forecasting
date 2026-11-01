@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+apple,group0_ohlcv,lstm,1126,0.0008718500612303,0.0084199486300349,0.0047227288596332,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\lstm\1126
+apple,group1_momentum,lstm,1126,0.0008906999137252,0.0083456309512257,0.0036767371930181,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\lstm\1126
+apple,group2_trend,lstm,1126,0.0008236618014052,0.0080676274374127,0.0043762871064245,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\lstm\1126
+apple,group3_volatility,lstm,1126,0.0007263632141984,0.0058767781592905,0.0041004442609846,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\lstm\1126
+apple,group4_all,lstm,1126,0.0008653557742945,0.0089442236348986,0.004470913670957,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\lstm\1126
+apple,group0_ohlcv,gru,1126,0.0010658748215064,0.004663024097681,0.0015596853336319,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\gru\1126
+apple,group1_momentum,gru,1126,0.0014356245519593,0.0054289423860609,0.0027207077946513,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\gru\1126
+apple,group2_trend,gru,1126,0.0013556043850257,0.0042019528336822,0.0021214019507169,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\gru\1126
+apple,group3_volatility,gru,1126,0.0008951532072387,0.0058197705075144,0.0039373766630887,26,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\gru\1126
+apple,group4_all,gru,1126,0.0013902670470997,0.0065524540841579,0.0035957202780991,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\gru\1126

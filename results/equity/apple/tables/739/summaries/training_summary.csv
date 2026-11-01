@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+apple,group0_ohlcv,lstm,739,0.0010093142045661,0.0076846238225698,0.0045883362181484,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\lstm\739
+apple,group1_momentum,lstm,739,0.0010255281813442,0.0100346598774194,0.0048275017179548,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\lstm\739
+apple,group2_trend,lstm,739,0.000882719643414,0.005518992897123,0.0048586423508822,27,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\lstm\739
+apple,group3_volatility,lstm,739,0.0007965069380588,0.0051565365865826,0.0033282495569437,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\lstm\739
+apple,group4_all,lstm,739,0.0010123022366315,0.0073915598914027,0.0043069808743894,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\lstm\739
+apple,group0_ohlcv,gru,739,0.001150470227003,0.0054108020849525,0.0022076887544244,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\gru\739
+apple,group1_momentum,gru,739,0.0021175474394112,0.0047779479064047,0.00108424492646,16,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\gru\739
+apple,group2_trend,gru,739,0.0011391768930479,0.0030631576664745,0.0027723086532205,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\gru\739
+apple,group3_volatility,gru,739,0.0010093857999891,0.0054611023515462,0.002516460372135,24,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\gru\739
+apple,group4_all,gru,739,0.0011100935516878,0.005519613623619,0.0023676441051065,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\gru\739

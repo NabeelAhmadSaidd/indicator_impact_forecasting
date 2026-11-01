@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+bitcoin,group0_ohlcv,lstm,1126,0.0008001853711903,0.0056639895774424,0.0056639895774424,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\lstm\1126
+bitcoin,group1_momentum,lstm,1126,0.0007737207924947,0.0075520141981542,0.0065134172327816,37,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\lstm\1126
+bitcoin,group2_trend,lstm,1126,0.0009073847322724,0.0087591931223869,0.0059763682074844,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\lstm\1126
+bitcoin,group3_volatility,lstm,1126,0.0006950846291147,0.0067240870557725,0.0053244451992213,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\lstm\1126
+bitcoin,group4_all,lstm,1126,0.0009880744619295,0.0112570831552147,0.0074982740916311,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\lstm\1126
+bitcoin,group0_ohlcv,gru,1126,0.0008575387764722,0.0052244351245462,0.0028734293300658,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group0_ohlcv\gru\1126
+bitcoin,group1_momentum,gru,1126,0.0012868577614426,0.0066122859716415,0.0043455236591398,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group1_momentum\gru\1126
+bitcoin,group2_trend,gru,1126,0.0009935554116964,0.0043376400135457,0.0034898563753813,39,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group2_trend\gru\1126
+bitcoin,group3_volatility,gru,1126,0.0008245570934377,0.0074775866232812,0.004534613341093,26,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group3_volatility\gru\1126
+bitcoin,group4_all,gru,1126,0.0009247146081179,0.0064721587114036,0.0042340494692325,36,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\crypto\bitcoin\group4_all\gru\1126

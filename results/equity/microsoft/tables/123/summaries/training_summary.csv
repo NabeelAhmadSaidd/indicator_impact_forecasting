@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+microsoft,group0_ohlcv,lstm,123,0.0005081604467704,0.0093854684382677,0.0083000678569078,48,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group0_ohlcv\lstm\123
+microsoft,group1_momentum,lstm,123,0.0005934267537668,0.0086926547810435,0.0074958386830985,60,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group1_momentum\lstm\123
+microsoft,group2_trend,lstm,123,0.0006265944684855,0.0102368919178843,0.0083170784637331,41,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group2_trend\lstm\123
+microsoft,group3_volatility,lstm,123,0.0005429306183941,0.0072531080804765,0.0072514722123742,33,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group3_volatility\lstm\123
+microsoft,group4_all,lstm,123,0.0006714079645462,0.0070508187636733,0.0065719573758542,47,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group4_all\lstm\123
+microsoft,group0_ohlcv,gru,123,0.0004990094457753,0.0142142064869403,0.0085350694134831,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group0_ohlcv\gru\123
+microsoft,group1_momentum,gru,123,0.0007860807236284,0.0117239691317081,0.0077246092259883,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group1_momentum\gru\123
+microsoft,group2_trend,gru,123,0.0007977131754159,0.010503951460123,0.0075748600065708,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group2_trend\gru\123
+microsoft,group3_volatility,gru,123,0.0004839929752051,0.0118469884619116,0.0096583385020494,42,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group3_volatility\gru\123
+microsoft,group4_all,gru,123,0.00077212206088,0.0134707959368824,0.0092197554185986,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\microsoft\group4_all\gru\123

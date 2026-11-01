@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+apple,group0_ohlcv,lstm,42,0.0006101861945353,0.00650778086856,0.0026708415243774,17,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\lstm\42
+apple,group1_momentum,lstm,42,0.0008121912833303,0.0077897203154861,0.0048661986365914,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\lstm\42
+apple,group2_trend,lstm,42,0.0008104599546641,0.0067167379893362,0.0042511997744441,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\lstm\42
+apple,group3_volatility,lstm,42,0.0008654610137455,0.0048307864926755,0.0033746440894901,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\lstm\42
+apple,group4_all,lstm,42,0.0008339666528627,0.0055355015210807,0.004080758895725,25,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\lstm\42
+apple,group0_ohlcv,gru,42,0.0005060638068243,0.0073607848025858,0.0015701316297054,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group0_ohlcv\gru\42
+apple,group1_momentum,gru,42,0.0009618045296519,0.0051750070415437,0.001771648065187,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group1_momentum\gru\42
+apple,group2_trend,gru,42,0.0007709913188591,0.0085091982036829,0.0017402525991201,22,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group2_trend\gru\42
+apple,group3_volatility,gru,42,0.0007821281906217,0.0059130769222974,0.0027017465326935,19,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group3_volatility\gru\42
+apple,group4_all,gru,42,0.0009726725402288,0.0063384217210114,0.0039066988974809,21,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\equity\apple\group4_all\gru\42

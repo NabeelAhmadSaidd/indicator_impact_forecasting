@@ -1,0 +1,11 @@
+model,group,improvement_pct
+LSTM,group0_ohlcv,0.0
+LSTM,group1_momentum,-7.848819639280292
+LSTM,group2_trend,-1.069941729772062
+LSTM,group3_volatility,-6.258633985712482
+LSTM,group4_all,-0.268884571546171
+GRU,group0_ohlcv,0.0
+GRU,group1_momentum,1.6248651751469327
+GRU,group2_trend,11.713597377093016
+GRU,group3_volatility,2.087222892763771
+GRU,group4_all,30.21534549154305

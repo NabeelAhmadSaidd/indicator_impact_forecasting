@@ -1,0 +1,11 @@
+asset,group,model,seed,final_loss,final_val_loss,best_val_loss,epochs_trained,checkpoint_dir
+nasdaq,group0_ohlcv,lstm,456,0.0011665121419355,0.0051016630604863,0.002250425517559,18,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\lstm\456
+nasdaq,group1_momentum,lstm,456,0.0010643358109518,0.0029311005491763,0.0018826713785529,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\lstm\456
+nasdaq,group2_trend,lstm,456,0.0010720193386077,0.0046306014992296,0.0019695928785949,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\lstm\456
+nasdaq,group3_volatility,lstm,456,0.0014226402854546,0.0032670905347913,0.0015156123554334,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\lstm\456
+nasdaq,group4_all,lstm,456,0.0014722566120326,0.0015792181948199,0.0015536656137555,28,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\lstm\456
+nasdaq,group0_ohlcv,gru,456,0.0016496184980496,0.0026172425132244,0.0008946331799961,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group0_ohlcv\gru\456
+nasdaq,group1_momentum,gru,456,0.0024206698872148,0.001690651057288,0.0010085623944178,20,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group1_momentum\gru\456
+nasdaq,group2_trend,gru,456,0.0016523607773706,0.0014569584745913,0.0010017509339377,23,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group2_trend\gru\456
+nasdaq,group3_volatility,gru,456,0.001031604129821,0.0031628685537725,0.0010660195257514,30,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group3_volatility\gru\456
+nasdaq,group4_all,gru,456,0.0013268823968246,0.0021980660967528,0.0018345140852034,27,C:\Users\Nabeel\Desktop\New folder\indicator_impact_forecasting\models\index\nasdaq\group4_all\gru\456

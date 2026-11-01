@@ -1,0 +1,192 @@
+# Feature Groups Configuration
+# Defines all technical indicators and their groupings for ablation experiments
+
+# Indicator definitions
+indicators:
+  RSI:
+    name: "Relative Strength Index"
+    function: "RSI"
+    params:
+      timeperiod: 14
+        
+  Stochastic_K:
+    name: "Stochastic %K"
+    function: "STOCH"
+    params:
+      fastk_period: 14
+      slowk_period: 3
+      slowk_matype: 0
+      slowd_period: 3
+      slowd_matype: 0
+    output: "slowk"
+      
+  Stochastic_D:
+    name: "Stochastic %D"
+    function: "STOCH"
+    params:
+      fastk_period: 14
+      slowk_period: 3
+      slowk_matype: 0
+      slowd_period: 3
+      slowd_matype: 0
+    output: "slowd"
+
+  SMA:
+    name: "Simple Moving Average"
+    function: "SMA"
+    params:
+      timeperiod: 20
+        
+  EMA:
+    name: "Exponential Moving Average"
+    function: "EMA"
+    params:
+      timeperiod: 20
+        
+  ADX:
+    name: "Average Directional Index"
+    function: "ADX"
+    params:
+      timeperiod: 14
+
+  ATR:
+    name: "Average True Range"
+    function: "ATR"
+    params:
+      timeperiod: 14
+        
+  BB_Upper:
+    name: "Bollinger Band Upper"
+    function: "BBANDS"
+    params:
+      timeperiod: 20
+      nbdevup: 2
+      nbdevdn: 2
+      matype: 0
+    output: "upperband"
+      
+  BB_Lower:
+    name: "Bollinger Band Lower"
+    function: "BBANDS"
+    params:
+      timeperiod: 20
+      nbdevup: 2
+      nbdevdn: 2
+      matype: 0
+    output: "lowerband"
+      
+  BB_PercentB:
+    name: "Bollinger %B"
+    function: "custom"
+    description: "Position of price relative to Bollinger Bands"
+    params:
+      timeperiod: 20
+      nbdev: 2
+
+  MACD:
+    name: "MACD Line"
+    function: "MACD"
+    params:
+      fastperiod: 12
+      slowperiod: 26
+      signalperiod: 9
+    output: "macd"
+      
+  MACD_Signal:
+    name: "MACD Signal Line"
+    function: "MACD"
+    params:
+      fastperiod: 12
+      slowperiod: 26
+      signalperiod: 9
+    output: "macdsignal"
+      
+  MACD_Histogram:
+    name: "MACD Histogram"
+    function: "MACD"
+    params:
+      fastperiod: 12
+      slowperiod: 26
+      signalperiod: 9
+    output: "macdhist"
+
+# Base features (Group 0) - Always included
+group0_ohlcv:
+  name: "OHLCV"
+  description: "Base price and volume features"
+  features:
+    - Open
+    - High
+    - Low
+    - Close
+    - Volume
+
+# Momentum Indicators (Group 1)
+group1_momentum:
+  name: "Momentum Indicators"
+  description: "OHLCV + Indicators measuring rate of price change"
+  features:
+    - Open
+    - High
+    - Low
+    - Close
+    - Volume
+    - RSI
+    - Stochastic_K
+    - Stochastic_D
+
+# Trend Indicators (Group 2)
+group2_trend:
+  name: "Trend Indicators"
+  description: "OHLCV + Indicators measuring market direction with MACD"
+  features:
+    - Open
+    - High
+    - Low
+    - Close
+    - Volume
+    - SMA
+    - EMA
+    - ADX
+    - MACD
+    - MACD_Signal
+    - MACD_Histogram
+
+# Volatility Indicators (Group 3)
+group3_volatility:
+  name: "Volatility Indicators"
+  description: "OHLCV + Indicators measuring price volatility"
+  features:
+    - Open
+    - High
+    - Low
+    - Close
+    - Volume
+    - ATR
+    - BB_Upper
+    - BB_Lower
+    - BB_PercentB
+
+# All Indicators Combined (Group 4)
+group4_all:
+  name: "All Indicators"
+  description: "Combination of Momentum, Trend, and Volatility groups"
+  features:
+    - Open
+    - High
+    - Low
+    - Close
+    - Volume
+    - RSI
+    - Stochastic_K
+    - Stochastic_D
+    - SMA
+    - EMA
+    - ADX
+    - MACD
+    - MACD_Signal
+    - MACD_Histogram
+    - ATR
+    - BB_Upper
+    - BB_Lower
+    - BB_PercentB
